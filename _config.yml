@@ -40,12 +40,9 @@ author: Laith
 #   "Copyright (c) 2017-{currentYear} <a href="https://example.com">{author}</a>"
 #   "Copyright © 2017-2021 Foobar"
 #
-copyright: "Unpublished Work (cleft) 2017-{currentYear} {author}"
+copyright: "Lamassau (cleft) 2017-{currentYear} {author}"
 
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description: "Technology is a utility for success, Even when your business is fully dependent on an app or a website you still need to focus on your business idea. We help with the rest.."
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.lamassau.com" # the base hostname & protocol for your site, e.g. https://example.com
@@ -152,12 +149,14 @@ yat:
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
-# header_pages:
-#   - index.html
+header_pages:
+  - index.html
+  - services.html
+  - about.html
+  - contact.html
 #   - archives.html
 #   - categories.html
 #   - tags.html
-#   - about.md
 
 # Page default value
 # defaults:
